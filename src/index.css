@@ -1,6 +1,7 @@
 body {
   width: 1216px;
   margin: auto;
+  background-color: #fbfbfe;
   font-family: "Inter";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
