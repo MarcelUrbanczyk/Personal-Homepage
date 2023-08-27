@@ -9,7 +9,7 @@ export const MailIcon = styled(Message)`
 export const Container = styled.div`
   display: grid;
   grid-template-columns: auto 1fr;
-  margin-top: 115px;
+  margin: 115px 0 63px 0;
 `;
 
 export const ThisIs = styled.p`
@@ -22,7 +22,7 @@ export const ThisIs = styled.p`
   text-transform: uppercase;
 `;
 
-export const Name = styled.p`
+export const Name = styled.h1`
   color: ${({ theme }) => theme.colors.black};
   font-family: Inter;
   font-size: 38px;
