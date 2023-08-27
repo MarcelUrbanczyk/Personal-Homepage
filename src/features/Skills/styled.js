@@ -5,8 +5,7 @@ export const List = styled.ul`
   padding: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-  column-gap: 115px;
+  grid-gap: 8px 32px;
 `;
 
 export const Item = styled.li`
