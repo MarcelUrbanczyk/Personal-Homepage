@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider } from "styled-components";
+import { theme } from "./features/theme/theme";
+import Profile from "./features/Profile";
+import Section from "./common/Section";
+import SkillList from "./features/Skills";
+import { futureSkills, currentSkills } from "./features/Skills/skillset";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <Profile></Profile>
+      <Section
+        title="My skillset includes 🛠️"
+        content={<SkillList skills={currentSkills} />}
+      />
+      <Section
+        title="What I want to learn next 🚀"
+        content={<SkillList skills={futureSkills} />}
+      />
+    </ThemeProvider>
   );
 }
 
