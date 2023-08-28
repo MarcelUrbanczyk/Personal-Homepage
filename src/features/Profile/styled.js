@@ -12,7 +12,7 @@ export const Container = styled.div`
   margin: 115px 0 63px 0;
 `;
 
-export const ThisIs = styled.p`
+export const ThisIs = styled.h2`
   color: ${({ theme }) => theme.colors.gray};
   font-family: Inter;
   font-size: 12px;
