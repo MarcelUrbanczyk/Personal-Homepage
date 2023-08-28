@@ -1,9 +1,12 @@
-import { List, Item } from "./styled";
+import { List, Item, Dot } from "./styled";
 
 const SkillList = ({ skills }) => (
   <List>
     {skills.map((skill) => (
-      <Item key={skill}>{skill}</Item>
+      <Item key={skill}>
+        <Dot />
+        {skill}
+      </Item>
     ))}
   </List>
 );
