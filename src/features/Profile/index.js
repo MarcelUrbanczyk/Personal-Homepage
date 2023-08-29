@@ -1,24 +1,15 @@
 import Portrait from "./Portrait";
-import {
-  Container,
-  ThisIs,
-  Name,
-  Wrapper,
-  Description,
-  HireButton,
-  MailIcon,
-} from "./styled";
+import HireButton from "./HireButton";
+import { Container, ThisIs, Name, Wrapper, Description } from "./styled";
 
 const Profile = () => (
   <Container>
-    <Portrait></Portrait>
+    <Portrait />
     <Wrapper>
       <ThisIs>This Is</ThisIs>
       <Name>Marcel Urbańczyk</Name>
       <Description>dawdasfawdafwefawef</Description>
-      <HireButton>
-        <MailIcon /> Hire Me
-      </HireButton>
+      <HireButton />
     </Wrapper>
   </Container>
 );

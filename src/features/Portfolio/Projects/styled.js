@@ -6,7 +6,6 @@ export const Tile = styled.div`
   padding: 56px;
   width: 592px;
   height: 322px;
-  flex-shrink: 0;
   background-color: ${({ theme }) => theme.colors.white};
   box-sizing: border-box;
   display: flex;
@@ -17,7 +16,6 @@ export const Tile = styled.div`
 export const Title = styled.h3`
   color: ${({ theme }) => theme.colors.blue};
   font-size: 24px;
-  font-weight: 700;
   letter-spacing: 1.2px;
   margin: 0;
 `;
@@ -31,31 +29,6 @@ export const Wrapper = styled.div`
 export const Description = styled.p`
   color: ${({ theme }) => theme.colors.gray};
   font-size: 18px;
-  font-weight: 400;
-  line-height: 1.4;
-  letter-spacing: 0.9px;
-  margin: 0;
-`;
-
-export const LinkList = styled.dl`
-  margin: 0;
-`;
-
-export const LinkName = styled.dt`
-  display: inline-block;
-  color: ${({ theme }) => theme.colors.gray};
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.4;
-  letter-spacing: 0.9px;
-  margin: 0;
-`;
-
-export const Link = styled.dd`
-  display: inline-block;
-  color: ${({ theme }) => theme.colors.blue};
-  font-size: 18px;
-  font-weight: 400;
   line-height: 1.4;
   letter-spacing: 0.9px;
   margin: 0;
