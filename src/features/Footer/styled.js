@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const StyledFooter = styled.footer`
-  margin: 0 0 109px 0;
+  margin: 0;
   width: 691px;
 `;
 
@@ -9,7 +9,6 @@ export const LetsTalk = styled.h2`
   color: ${({ theme }) => theme.colors.gray};
   margin: 0 0 24px 0;
   font-size: 12px;
-  font-weight: 700;
   line-height: 1.3;
   text-transform: uppercase;
 `;

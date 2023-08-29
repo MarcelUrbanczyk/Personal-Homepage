@@ -5,7 +5,7 @@ body {
   font-family: "Inter";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding-top: 115px;
+  padding: 115px 0 109px 0;
 }
 
 code {
