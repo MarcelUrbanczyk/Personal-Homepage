@@ -1,6 +1,6 @@
 import { List, Item, Dot } from "./styled";
 
-const SkillList = ({ skills }) => (
+const Skills = ({ skills }) => (
   <List>
     {skills.map((skill) => (
       <Item key={skill}>
@@ -11,4 +11,4 @@ const SkillList = ({ skills }) => (
   </List>
 );
 
-export default SkillList;
+export default Skills;
