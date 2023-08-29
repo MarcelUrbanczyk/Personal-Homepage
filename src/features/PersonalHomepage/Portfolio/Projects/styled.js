@@ -11,6 +11,7 @@ export const Tile = styled.div`
   display: flex;
   flex-direction: column;
   gap: 24px;
+  box-shadow: ${({ theme }) => theme.boxshadow};
 `;
 
 export const Title = styled.h3`
