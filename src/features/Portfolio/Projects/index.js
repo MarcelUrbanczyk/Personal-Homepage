@@ -1,76 +1,18 @@
-import {
-  Tile,
-  Title,
-  Wrapper,
-  Description,
-  LinkList,
-  LinkName,
-  Link,
-} from "./styled";
+import { Tile, Title, Wrapper, Description } from "./styled";
+import LinkList from "./LinkList";
 
-const Projects = () => (
-  <Wrapper>
-    <Tile>
-      <Title>Movie Browser</Title>
-      <Description>
-        Project description, e.g. website where you can search for favourite
-        movies and people. Project description, e.g. website where you can
-        search.
-      </Description>
-      <LinkList>
-        <LinkName>Demo:&nbsp;</LinkName>
-        <Link>https://link.demo.com</Link>
-        <br />
-        <LinkName>Code:&nbsp;</LinkName>
-        <Link>https://link.code.com</Link>
-      </LinkList>
-    </Tile>
-    <Tile>
-      <Title>Movie Browser</Title>
-      <Description>
-        Project description, e.g. website where you can search for favourite
-        movies and people. Project description, e.g. website where you can
-        search.
-      </Description>
-      <LinkList>
-        <LinkName>Demo:&nbsp;</LinkName>
-        <Link>https://link.demo.com</Link>
-        <br />
-        <LinkName>Code:&nbsp;</LinkName>
-        <Link>https://link.code.com</Link>
-      </LinkList>
-    </Tile>
-    <Tile>
-      <Title>Movie Browser</Title>
-      <Description>
-        Project description, e.g. website where you can search for favourite
-        movies and people. Project description, e.g. website where you can
-        search.
-      </Description>
-      <LinkList>
-        <LinkName>Demo:&nbsp;</LinkName>
-        <Link>https://link.demo.com</Link>
-        <br />
-        <LinkName>Code:&nbsp;</LinkName>
-        <Link>https://link.code.com</Link>
-      </LinkList>
-    </Tile>
-    <Tile>
-      <Title>Movie Browser</Title>
-      <Description>
-        Project description, e.g. website where you can search for favourite
-        movies and people. Project description, e.g. website where you can
-        search.
-      </Description>
-      <LinkList>
-        <LinkName>Demo:&nbsp;</LinkName>
-        <Link>https://link.demo.com</Link>
-        <br />
-        <LinkName>Code:&nbsp;</LinkName>
-        <Link>https://link.code.com</Link>
-      </LinkList>
-    </Tile>
-  </Wrapper>
-);
+const Projects = ({ projects }) => {
+  return (
+    <Wrapper>
+      {projects.map(({ title, description, codeUrl, demoUrl }) => {
+        <Tile key={title}>
+          <Title>{title}</Title>
+          <Description>{description}</Description>
+          <LinkList codeUrl={codeUrl} demoUrl={demoUrl} />
+        </Tile>;
+      })}
+    </Wrapper>
+  );
+};
 
 export default Projects;

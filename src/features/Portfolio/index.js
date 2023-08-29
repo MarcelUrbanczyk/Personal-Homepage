@@ -1,12 +1,13 @@
 import { GithubIcon, Wrapper, Header, Description } from "./styled";
 import Projects from "./Projects";
+import { projectObjects } from "./projectObjects";
 
 const Portfolio = () => (
   <Wrapper>
     <GithubIcon />
     <Header>Portfolio</Header>
     <Description>My recent projects</Description>
-    <Projects />
+    <Projects projects={projectObjects} />
   </Wrapper>
 );
 
