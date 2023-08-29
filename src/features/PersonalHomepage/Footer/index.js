@@ -1,10 +1,11 @@
 import { StyledFooter, LetsTalk, Email, Description } from "./styled";
 import IconCollection from "./Icons";
+import { email } from "../email";
 
 const Footer = () => (
   <StyledFooter>
     <LetsTalk>Lets Talk!</LetsTalk>
-    <Email>urbanczyk.marcel04@gmail.com</Email>
+    <Email>{email}</Email>
     <Description>
       I’m always open to new projects whenever I have the time. If you have a
       website, dashboard or mobile app in mind and need some help to make your
