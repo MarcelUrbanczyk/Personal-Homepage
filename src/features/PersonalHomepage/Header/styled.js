@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const StyledHeader = styled.header`
   display: grid;
   grid-template-columns: auto 1fr;
   margin: 0 0 63px 0;

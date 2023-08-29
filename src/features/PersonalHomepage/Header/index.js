@@ -1,9 +1,9 @@
 import Portrait from "./Portrait";
 import HireButton from "./HireButton";
-import { Container, ThisIs, Name, Wrapper, Description } from "./styled";
+import { StyledHeader, ThisIs, Name, Wrapper, Description } from "./styled";
 
-const Profile = () => (
-  <Container>
+const Header = () => (
+  <StyledHeader>
     <Portrait />
     <Wrapper>
       <ThisIs>This Is</ThisIs>
@@ -11,7 +11,7 @@ const Profile = () => (
       <Description>dawdasfawdafwefawef</Description>
       <HireButton />
     </Wrapper>
-  </Container>
+  </StyledHeader>
 );
 
-export default Profile;
+export default Header;
