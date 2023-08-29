@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { ReactComponent as DotIcon } from "./Dot.svg";
+import { ReactComponent as DotIcon } from "../Dot.svg";
 
-export const List = styled.ul`
+export const StyledList = styled.ul`
   margin: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
