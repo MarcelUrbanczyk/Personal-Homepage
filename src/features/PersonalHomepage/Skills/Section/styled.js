@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   background-color: ${({ theme }) => theme.colors.white};
+  box-shadow: ${({ theme }) => theme.boxshadow};
   margin: 0 0 72px 0;
   padding: 32px;
 `;
