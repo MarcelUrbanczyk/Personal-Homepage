@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as DotIcon } from "../../assets/Dot.svg";
+import { ReactComponent as DotIcon } from "./Dot.svg";
 
 export const List = styled.ul`
   margin: 0;

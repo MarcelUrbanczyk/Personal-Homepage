@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import { ReactComponent as ghIcon } from "../../assets/social icons/mark-github.svg";
+import { ReactComponent as ghIcon } from "./mark-github.svg";
 
 export const GithubIcon = styled(ghIcon)`
   margin: 0 0 12px 0;

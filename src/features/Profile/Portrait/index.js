@@ -1,5 +1,5 @@
 import { Image, Frame } from "./styled";
-import photo from "../../../assets/prof.jpg";
+import photo from "./prof.jpg";
 
 const Portrait = () => (
   <Frame>
