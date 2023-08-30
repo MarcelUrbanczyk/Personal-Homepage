@@ -1,7 +1,8 @@
 import { Tile, Title, Wrapper, Description } from "./styled";
 import LinkList from "./LinkList";
 
-const Projects = ({ projects }) => {
+const Projects = () => {
+  const projects = [];
   return (
     <Wrapper>
       {projects.map(({ title, description, demoUrl, codeUrl }) => (
