@@ -20,7 +20,9 @@ const portfolioSlice = createSlice({
 
 const selectPortfolio = (state) => state;
 
-const selectPortfolioState = (state) => selectPortfolio(state).state;
+export const selectPortfolioState = (state) => selectPortfolio(state).state;
 
 export const { setStateError, setStateLoading, setStateSuccess } =
   portfolioSlice.actions;
+
+export default portfolioSlice.reducer;
