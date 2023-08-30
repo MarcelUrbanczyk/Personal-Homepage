@@ -7,7 +7,6 @@ export const Tile = styled.div`
   width: 592px;
   height: 322px;
   background-color: ${({ theme }) => theme.colors.white};
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   gap: 24px;
