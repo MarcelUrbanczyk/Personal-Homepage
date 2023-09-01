@@ -13,7 +13,7 @@ export const currentSkills = [
   "React Hooks",
   "Error handling",
   "Working with API (fetch, axios)",
-  "JavaScrip: ES6+",
+  "JavaScript: ES6+",
   "Promises, Async/Await",
   "GitHub Pull Requests & Review",
   "Trello",
