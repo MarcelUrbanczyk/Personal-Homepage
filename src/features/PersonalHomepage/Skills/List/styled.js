@@ -10,7 +10,7 @@ export const StyledList = styled.ul`
 `;
 
 export const Item = styled.li`
-  color: ${({ theme }) => theme.colors.gray};
+  color: ${({ theme }) => theme.colors.text.secondaryText};
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.9px;
