@@ -6,5 +6,5 @@ export const getProjects = async () => {
   const response = await axios.get(url);
   if (!response.ok) new Error(response.statusText);
 
-  return await response.json();
+  return await response.data;
 };
