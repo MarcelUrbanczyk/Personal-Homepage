@@ -1,19 +1,36 @@
-import { Tile, Title, Wrapper, Description } from "./styled";
-import LinkList from "./LinkList";
+import { useDispatch, useSelector } from "react-redux";
+import {
+  fetchProjects,
+  selectProjects,
+  selectLoadingState,
+} from "../portfolioSlice";
+import { useEffect } from "react";
+import Success from "./Success";
+import Error from "./Error";
+import Loading from "./Loading";
 
 const Projects = () => {
-  const projects = [];
-  return (
-    <Wrapper>
-      {projects.map(({ title, description, demoUrl, codeUrl }) => (
-        <Tile key={title}>
-          <Title>{title}</Title>
-          <Description>{description}</Description>
-          <LinkList codeUrl={codeUrl} demoUrl={demoUrl} />
-        </Tile>
-      ))}
-    </Wrapper>
-  );
+  const dispatch = useDispatch();
+  const projects = useSelector(selectProjects);
+  const state = useSelector(selectLoadingState);
+
+  useEffect(() => {
+    dispatch(fetchProjects());
+  }, []);
+
+  switch (state) {
+    case "error":
+      return <Error />;
+
+    case "success":
+      return <Success projects={projects} />;
+
+    case "loading":
+      return <Loading />;
+
+    case "default":
+      throw new Error("invalid state");
+  }
 };
 
 export default Projects;
