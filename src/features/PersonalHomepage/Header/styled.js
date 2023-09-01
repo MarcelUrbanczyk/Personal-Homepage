@@ -1,4 +1,10 @@
 import styled from "styled-components";
+import { ReactComponent as EnvelopeIcon } from "./Envelope.svg";
+
+export const Envelope = styled(EnvelopeIcon)`
+  width: 24px;
+  height: 24px;
+`;
 
 export const StyledHeader = styled.header`
   display: grid;
@@ -7,7 +13,7 @@ export const StyledHeader = styled.header`
 `;
 
 export const ThisIs = styled.h2`
-  color: ${({ theme }) => theme.colors.gray};
+  color: ${({ theme }) => theme.colors.text.secondaryText};
   font-size: 12px;
   line-height: 130%;
   margin-top: 68px;
@@ -15,7 +21,7 @@ export const ThisIs = styled.h2`
 `;
 
 export const Name = styled.h1`
-  color: ${({ theme }) => theme.colors.black};
+  color: ${({ theme }) => theme.colors.text.primaryText};
   font-size: 38px;
   font-weight: 900;
   letter-spacing: 1.9px;
@@ -27,7 +33,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Description = styled.p`
-  color: ${({ theme }) => theme.colors.gray};
+  color: ${({ theme }) => theme.colors.text.secondaryText};
   font-size: 20px;
   line-height: 1.4;
   letter-spacing: 1px;

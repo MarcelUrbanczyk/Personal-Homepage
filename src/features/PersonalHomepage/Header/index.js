@@ -1,6 +1,13 @@
 import Portrait from "./Portrait";
-import HireButton from "./HireButton";
-import { StyledHeader, ThisIs, Name, Wrapper, Description } from "./styled";
+import Button from "../Button";
+import {
+  StyledHeader,
+  ThisIs,
+  Name,
+  Wrapper,
+  Description,
+  Envelope,
+} from "./styled";
 
 const Header = () => (
   <StyledHeader>
@@ -9,7 +16,7 @@ const Header = () => (
       <ThisIs>This Is</ThisIs>
       <Name>Marcel Urbańczyk</Name>
       <Description>dawdasfawdafwefawef</Description>
-      <HireButton />
+      <Button icon={<Envelope />} text="Hire Me" />
     </Wrapper>
   </StyledHeader>
 );
