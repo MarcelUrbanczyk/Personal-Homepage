@@ -1,15 +1,23 @@
-import { List, LinkName, LinkUrl, LinkRow } from "./styled";
+import { List, Name, Url, Row, Link } from "./styled";
 
 const LinkList = ({ demoUrl, codeUrl }) => (
   <List>
-    <LinkRow>
-      <LinkName>Demo:&nbsp;</LinkName>
-      <LinkUrl>{demoUrl}</LinkUrl>
-    </LinkRow>
-    <LinkRow>
-      <LinkName>Code:&nbsp;</LinkName>
-      <LinkUrl>{codeUrl}</LinkUrl>
-    </LinkRow>
+    <Row>
+      <Name>Demo:&nbsp;</Name>
+      <Url>
+        <Link href={demoUrl} target="_blank" rel="noreferrer">
+          {demoUrl}
+        </Link>
+      </Url>
+    </Row>
+    <Row>
+      <Name>Code:&nbsp;</Name>
+      <Url>
+        <Link href={codeUrl} target="_blank" rel="noreferrer">
+          {codeUrl}
+        </Link>
+      </Url>
+    </Row>
   </List>
 );
 
