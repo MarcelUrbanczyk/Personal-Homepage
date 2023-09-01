@@ -9,7 +9,7 @@ export const Tile = styled.div`
   height: 322px;
   background-color: ${({ theme }) => theme.colors.background.boxBackground};
   &:hover {
-    border: 6px solid ${({ theme }) => theme.colors.blueBorder};
+    border: 6px solid ${({ theme }) => theme.colors.border.blueBorder};
   }
 `;
 
