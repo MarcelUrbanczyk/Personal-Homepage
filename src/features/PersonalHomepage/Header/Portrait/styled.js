@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Image = styled.img`
-  width: 80%;
+  width: 120%;
 `;
 
 export const Frame = styled.div`
