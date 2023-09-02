@@ -27,7 +27,7 @@ export const Email = styled.p`
 `;
 
 export const Description = styled.p`
-  color: ${({ theme }) => theme.colors.MineShaft};
+  color: ${({ theme }) => theme.colors.text.primaryText};
   margin: 0 0 56px 0;
   width: 670px;
   font-size: 18px;

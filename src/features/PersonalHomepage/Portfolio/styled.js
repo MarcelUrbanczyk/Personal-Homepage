@@ -14,6 +14,7 @@ export const Wrapper = styled.section`
 `;
 
 export const Header = styled.h2`
+  color: ${({ theme }) => theme.colors.text.primaryText};
   font-size: 30px;
   font-weight: 900;
   letter-spacing: 1.5px;
@@ -21,6 +22,7 @@ export const Header = styled.h2`
 `;
 
 export const Description = styled.p`
+  color: ${({ theme }) => theme.colors.text.primaryText};
   margin: 0 0 24px 0;
   font-size: 20px;
   line-height: 1.4;
