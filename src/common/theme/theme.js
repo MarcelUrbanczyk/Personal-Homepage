@@ -10,7 +10,9 @@ const colorCollection = {
   TransparentGray: "#14462033",
   TransparentDarkGray: "#363636b8",
   TransparentLightGray: "#d1d5da4d",
+  Mercury: "#E5E5E5",
   MineShaft: "#252525",
+  TransparentBlack: "#363636b8",
 };
 
 const common = {
@@ -43,5 +45,33 @@ export const lightTheme = {
       activeBoxShadow: "0px 2px 0px 0px rgba(20, 70, 32, 0.20) inset",
     },
     divider: colorCollection.TransparentLightGray,
+  },
+};
+
+export const darkTheme = {
+  ...common,
+  colors: {
+    background: {
+      siteBackground: colorCollection.MineShaft,
+      boxBackground: colorCollection.TransparentBlack,
+    },
+    text: {
+      primaryBlue: colorCollection.White,
+      primaryText: colorCollection.White,
+      secondaryText: colorCollection.White,
+    },
+    border: {
+      primaryBorder: colorCollection.TransparentLightGray,
+      blueBorder: colorCollection.DodgerBlue,
+    },
+    button: {
+      background: colorCollection.DodgerBlue,
+      text: colorCollection.White,
+      border: colorCollection.TransparentLightGray,
+      focusBoxShadow:
+        "-2px -2px 0px 0px #6D93BE, 2px 2px 0px 0px #6D93BE, -2px 2px 0px 0px #6D93BE, 2px -2px 0px 0px #6D93BE",
+      activeBoxShadow: "0px 2px 0px 0px rgba(20, 70, 32, 0.20) inset",
+    },
+    divider: colorCollection.Mercury,
   },
 };
