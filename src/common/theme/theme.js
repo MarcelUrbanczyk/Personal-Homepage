@@ -56,7 +56,7 @@ export const darkTheme = {
       boxBackground: colorCollection.TransparentBlack,
     },
     text: {
-      primaryBlue: colorCollection.White,
+      primaryBlue: colorCollection.DodgerBlue,
       primaryText: colorCollection.White,
       secondaryText: colorCollection.White,
     },
