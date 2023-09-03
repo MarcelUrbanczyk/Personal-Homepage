@@ -10,6 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 115px 0 109px 0;
+  transition: background-color 0.3s;
 }
 `;
 
