@@ -1,6 +1,6 @@
 import { Label, Wrapper } from "./styled";
-import { useSelector } from "react-redux";
 import { selectIsThemeDark } from "../../../common/theme/themeSlice";
+import { useSelector } from "react-redux";
 import Button from "./Button";
 
 const ThemeSwitch = () => {
