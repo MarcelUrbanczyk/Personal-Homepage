@@ -7,6 +7,7 @@ export const Tile = styled.div`
   padding: 56px;
   width: 592px;
   height: 322px;
+  transition: 0.3s;
   background-color: ${({ theme }) => theme.colors.background.boxBackground};
   &:hover {
     border: 6px solid ${({ theme }) => theme.colors.border.blueBorder};
