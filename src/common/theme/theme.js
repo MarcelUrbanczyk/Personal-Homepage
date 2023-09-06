@@ -45,7 +45,6 @@ export const lightTheme = {
       activeBoxShadow: "0px 2px 0px 0px rgba(20, 70, 32, 0.20) inset",
     },
     divider: colorCollection.TransparentLightGray,
-    bullet: colorCollection.SlateGray,
   },
 };
 
@@ -74,6 +73,5 @@ export const darkTheme = {
       activeBoxShadow: "0px 2px 0px 0px rgba(20, 70, 32, 0.20) inset",
     },
     divider: colorCollection.TransparentLightGray,
-    bullet: colorCollection.White,
   },
 };
