@@ -20,7 +20,7 @@ export const Switch = styled(SwitchIcon)`
 export const Bullet = styled.span`
   width: 20px;
   height: 20px;
-  background: ${({ theme }) => theme.colors.bullet};
+  background: ${({ theme }) => theme.colors.text.secondaryText};
   border-radius: 50%;
   position: absolute;
   display: flex;
