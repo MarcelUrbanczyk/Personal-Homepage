@@ -11,6 +11,7 @@ export const StyledButton = styled.button`
   font-size: 20.058px;
   margin-top: 32px;
   font-family: "Inter";
+  cursor: pointer;
   &:focus {
     ${({ theme }) => theme.colors.button.focusBoxShadow}
   }
