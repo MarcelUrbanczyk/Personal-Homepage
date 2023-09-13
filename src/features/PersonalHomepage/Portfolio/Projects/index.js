@@ -3,7 +3,6 @@ import Error from "./Error";
 import Loading from "./Loading";
 
 const Projects = ({ projects }) => {
-  console.log(projects);
   if (projects === "error") {
     return <Error />;
   } else if (projects === "loading") {
