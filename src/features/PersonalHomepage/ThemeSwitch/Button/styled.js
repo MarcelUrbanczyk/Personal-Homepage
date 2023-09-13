@@ -28,8 +28,8 @@ export const Bullet = styled.span`
   align-items: center;
   margin: 3px;
   transition: transform 0.3s;
-  ${({ moveToRight }) =>
-    moveToRight &&
+  ${({ movetoright }) =>
+    movetoright &&
     css`
       transform: translateX(20px);
     `};

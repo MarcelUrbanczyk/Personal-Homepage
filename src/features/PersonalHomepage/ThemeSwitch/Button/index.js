@@ -7,7 +7,7 @@ const Button = ({ isThemeDark }) => {
   return (
     <StyledButton onClick={() => dispatch(switchTheme())}>
       <Switch />
-      <Bullet moveToRight={isThemeDark}>
+      <Bullet movetoright={isThemeDark}>
         <Sun />
       </Bullet>
     </StyledButton>
