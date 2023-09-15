@@ -10,7 +10,7 @@ export const icons = [
   },
   {
     name: "linkedin",
-    url: "https://github.com/MarcelUrbanczyk",
+    url: "https://www.linkedin.com/in/marcel-urbańczyk-33797428b/",
     Icon: StyleIcon(LinkedInIcon),
   },
 ];
