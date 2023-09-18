@@ -2,7 +2,6 @@ import { styled } from "styled-components";
 
 export const StyledFooter = styled.footer`
   margin: 0;
-  width: 691px;
 `;
 
 export const LetsTalk = styled.h2`
@@ -24,13 +23,22 @@ export const Email = styled.p`
     color: ${({ theme }) => theme.colors.text.primaryBlue};
     cursor: pointer;
   }
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+    font-size: 24px;
+  }
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileSmall}) {
+    font-size: 18px;
+  }
 `;
 
 export const Description = styled.p`
   color: ${({ theme }) => theme.colors.text.primaryText};
   margin: 0 0 56px 0;
-  width: 670px;
+  max-width: 670px;
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.9px;
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+    font-size: 12px;
+  }
 `;

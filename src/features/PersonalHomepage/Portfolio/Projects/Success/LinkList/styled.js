@@ -11,6 +11,9 @@ export const Name = styled.dt`
   line-height: 1.4;
   letter-spacing: 0.9px;
   margin: 0;
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+    font-size: 14px;
+  }
 `;
 
 export const Url = styled.dd`
@@ -29,6 +32,9 @@ export const Link = styled.a`
   }
   &:active {
     color: none;
+  }
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+    font-size: 14px;
   }
 `;
 

@@ -10,6 +10,12 @@ export const StyledHeader = styled.header`
   display: grid;
   grid-template-columns: auto 1fr;
   margin: 0 0 63px 0;
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileSmall}) {
+    grid-template-columns: auto;
+  }
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileSmall}) {
+    margin: 0 0 48px 0;
+  }
 `;
 
 export const ThisIs = styled.h2`
@@ -18,6 +24,9 @@ export const ThisIs = styled.h2`
   line-height: 130%;
   margin-top: 68px;
   text-transform: uppercase;
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileSmall}) {
+    margin-top: 12px;
+  }
 `;
 
 export const Name = styled.h1`
@@ -26,10 +35,16 @@ export const Name = styled.h1`
   font-weight: 900;
   letter-spacing: 1.9px;
   margin: 0;
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+    font-size: 28px;
+  }
 `;
 
 export const Wrapper = styled.div`
   grid-column: 2;
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileSmall}) {
+    grid-column: 1;
+  }
 `;
 
 export const Description = styled.p`
@@ -38,4 +53,10 @@ export const Description = styled.p`
   line-height: 1.4;
   letter-spacing: 1px;
   margin: 35px 0 0;
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+    font-size: 18px;
+  }
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileSmall}) {
+    margin: 16px 0 0;
+  }
 `;

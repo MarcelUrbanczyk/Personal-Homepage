@@ -13,4 +13,8 @@ export const Frame = styled.div`
   height: 398px;
   overflow: hidden;
   margin-right: 66px;
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileSmall}) {
+    width: 180px;
+    height: 180px;
+  }
 `;

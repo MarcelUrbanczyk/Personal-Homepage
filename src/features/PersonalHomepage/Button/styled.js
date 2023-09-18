@@ -18,4 +18,7 @@ export const StyledButton = styled.button`
   &:active {
     ${({ theme }) => theme.colors.button.activeBoxShadow}
   }
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileSmall}) {
+    margin-top: 24px;
+  }
 `;
