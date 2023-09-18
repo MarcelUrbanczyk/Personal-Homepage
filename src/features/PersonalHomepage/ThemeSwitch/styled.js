@@ -11,7 +11,6 @@ export const Label = styled.label`
 
 export const Wrapper = styled.div`
   display: flex;
-  align-items: flex-end;
   justify-content: flex-end;
   margin: 0;
   padding: 0;
