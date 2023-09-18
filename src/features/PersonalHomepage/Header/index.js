@@ -8,14 +8,15 @@ import {
   Description,
   Envelope,
 } from "./styled";
+import { name, description } from "../data";
 
 const Header = () => (
   <StyledHeader>
     <Portrait />
     <Wrapper>
       <ThisIs>This Is</ThisIs>
-      <Name>Marcel Urbańczyk</Name>
-      <Description>dawdasfawdafwefawef</Description>
+      <Name>{name}</Name>
+      <Description>{description}</Description>
       <Button icon={<Envelope />} text="Hire Me" />
     </Wrapper>
   </StyledHeader>

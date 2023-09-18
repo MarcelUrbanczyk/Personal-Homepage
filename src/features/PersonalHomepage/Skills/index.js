@@ -1,6 +1,6 @@
-import { currentSkills, futureSkills } from "./skillset";
 import Section from "./Section";
 import List from "./List";
+import { currentSkills, futureSkills } from "../data";
 
 const Skills = () => (
   <>
