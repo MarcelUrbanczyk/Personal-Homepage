@@ -27,7 +27,7 @@ export const Email = styled.p`
     font-size: 24px;
   }
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileSmall}) {
-    font-size: 18px;
+    font-size: 16px;
   }
 `;
 
