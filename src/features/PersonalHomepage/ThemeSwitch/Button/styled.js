@@ -15,12 +15,14 @@ export const StyledButton = styled.button`
 export const Switch = styled(SwitchIcon)`
   display: flex;
   align-items: center;
+  color: ${({ theme }) => theme.colors.themeSwitch.background};
+  stroke: ${({ theme }) => theme.colors.themeSwitch.stroke};
 `;
 
 export const Bullet = styled.span`
   width: 20px;
   height: 20px;
-  background: ${({ theme }) => theme.colors.text.secondaryText};
+  background: ${({ theme }) => theme.colors.themeSwitch.bullet};
   border-radius: 50%;
   position: absolute;
   display: flex;
@@ -35,4 +37,6 @@ export const Bullet = styled.span`
     `};
 `;
 
-export const Sun = styled(SunIcon)``;
+export const Sun = styled(SunIcon)`
+  color: ${({ theme }) => theme.colors.themeSwitch.sun};
+`;
