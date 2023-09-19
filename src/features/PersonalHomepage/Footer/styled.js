@@ -23,10 +23,13 @@ export const Email = styled.p`
     color: ${({ theme }) => theme.colors.text.primaryBlue};
     cursor: pointer;
   }
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
-    font-size: 24px;
+  @media (max-width: 624px) {
+    font-size: 28px;
   }
-  @media (max-width: ${({ theme }) => theme.breakpoints.mobileSmall}) {
+  @media (max-width: 560px) {
+    font-size: 20px;
+  }
+  @media (max-width: 430px) {
     font-size: 16px;
   }
 `;
@@ -40,5 +43,6 @@ export const Description = styled.p`
   letter-spacing: 0.9px;
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     font-size: 12px;
+    margin-bottom: 40px;
   }
 `;

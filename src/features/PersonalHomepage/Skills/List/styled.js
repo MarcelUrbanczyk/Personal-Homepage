@@ -9,9 +9,11 @@ export const StyledList = styled.ul`
   padding: 32px 0 0;
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
     grid-template-columns: repeat(2, 1fr);
+    padding: 24px 0 0;
   }
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     grid-template-columns: auto;
+    padding: 18px 0 0;
   }
 `;
 
@@ -29,4 +31,10 @@ export const Item = styled.li`
 
 export const Dot = styled(DotIcon)`
   margin: 2px 16px;
+  @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    margin: 2px 12px;
+  }
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+    margin: 2px 12px 2px 6px;
+  }
 `;
