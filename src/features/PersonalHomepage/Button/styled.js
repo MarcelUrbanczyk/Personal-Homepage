@@ -11,12 +11,13 @@ export const StyledButton = styled.button`
   font-size: 20.058px;
   margin-top: 32px;
   font-family: "Inter";
+  transition: 0.3s;
   cursor: pointer;
-  &:focus {
-    ${({ theme }) => theme.colors.button.focusBoxShadow}
+  &:hover {
+    box-shadow: ${({ theme }) => theme.colors.button.focusBoxShadow};
   }
   &:active {
-    ${({ theme }) => theme.colors.button.activeBoxShadow}
+    box-shadow: ${({ theme }) => theme.colors.button.activeBoxShadow};
   }
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileSmall}) {
     margin-top: 24px;
