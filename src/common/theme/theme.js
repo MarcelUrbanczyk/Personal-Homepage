@@ -10,6 +10,7 @@ const colorCollection = {
   TransparentGray: "#14462033",
   TransparentDarkGray: "#363636b8",
   TransparentLightGray: "#d1d5da4d",
+  Iron: "#D1D5DA4D",
   Mercury: "#E5E5E5",
   MineShaft: "#252525",
   TransparentBlack: "#363636b8",
@@ -50,6 +51,12 @@ export const lightTheme = {
         "-2px -2px 0px 0px #8CC2FF, 2px 2px 0px 0px #8CC2FF, -2px 2px 0px 0px #8CC2FF, 2px -2px 0px 0px #8CC2FF",
       activeBoxShadow: "0px 2px 0px 0px rgba(20, 70, 32, 0.20) inset",
     },
+    themeSwitch: {
+      background: colorCollection.Iron,
+      bullet: colorCollection.SlateGray,
+      sun: colorCollection.White,
+      stroke: colorCollection.SlateGray,
+    },
     divider: colorCollection.TransparentLightGray,
   },
 };
@@ -77,6 +84,12 @@ export const darkTheme = {
       focusBoxShadow:
         "-2px -2px 0px 0px #6D93BE, 2px 2px 0px 0px #6D93BE, -2px 2px 0px 0px #6D93BE, 2px -2px 0px 0px #6D93BE",
       activeBoxShadow: "0px 2px 0px 0px rgba(20, 70, 32, 0.20) inset",
+    },
+    themeSwitch: {
+      background: colorCollection.MineShaft,
+      bullet: colorCollection.White,
+      sun: colorCollection.MineShaft,
+      stroke: colorCollection.White,
     },
     divider: colorCollection.TransparentLightGray,
   },
