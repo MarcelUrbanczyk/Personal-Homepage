@@ -8,7 +8,7 @@ import {
   Description,
   Envelope,
 } from "./styled";
-import { name, description } from "../data";
+import { name, description, email } from "../data";
 
 const Header = () => (
   <StyledHeader>
@@ -17,7 +17,9 @@ const Header = () => (
       <ThisIs>This Is</ThisIs>
       <Name>{name}</Name>
       <Description>{description}</Description>
-      <Button icon={<Envelope />} text="Hire Me" />
+      <a href={`mailto:${email}`}>
+        <Button icon={<Envelope />} text="Hire Me" />
+      </a>
     </Wrapper>
   </StyledHeader>
 );

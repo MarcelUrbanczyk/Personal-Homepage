@@ -5,7 +5,9 @@ import { footerDescription, email } from "../data";
 const Footer = () => (
   <StyledFooter>
     <LetsTalk>Lets Talk!</LetsTalk>
-    <Email>{email}</Email>
+    <a href={`mailto:${email}`}>
+      <Email>{email}</Email>
+    </a>
     <Description>{footerDescription}</Description>
     <IconCollection />
   </StyledFooter>
