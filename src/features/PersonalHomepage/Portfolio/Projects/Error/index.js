@@ -1,5 +1,6 @@
 import Button from "../../../Button";
 import { Wrapper, Warning, ErrorHeader, ErrorMessage } from "./styled";
+import { gitHubUrl } from "../../../data";
 
 const Error = () => (
   <Wrapper>
@@ -9,7 +10,9 @@ const Error = () => (
       Sorry, failed to load Github projects.
       <br /> You can check them directly on Github.
     </ErrorMessage>
-    <Button text="Go to Github" />
+    <a href={gitHubUrl}>
+      <Button text="Go to Github" />
+    </a>
   </Wrapper>
 );
 
