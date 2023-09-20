@@ -1,14 +1,14 @@
 import { Label, Wrapper } from "./styled";
-import { selectIsThemeDark } from "../../../common/theme/themeSlice";
+import { selectThemeState } from "../../../common/theme/themeSlice";
 import { useSelector } from "react-redux";
 import Button from "./Button";
 
 const ThemeSwitch = () => {
-  const isThemeDark = useSelector(selectIsThemeDark);
+  const theme = useSelector(selectThemeState);
   return (
     <Wrapper>
-      <Label>Dark Theme {isThemeDark ? "on" : "off"} </Label>
-      <Button isThemeDark={isThemeDark} />
+      <Label>Dark Theme {theme === "light" ? "on" : "off"} </Label>
+      <Button theme={theme} />
     </Wrapper>
   );
 };
