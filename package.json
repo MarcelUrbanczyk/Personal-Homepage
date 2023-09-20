@@ -1,8 +1,8 @@
 {
-  "name": "personal-homepage",
+  "name": "Personal-Homepage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marcelurbanczyk.github.io/personal-homepage/",
+  "homepage": "https://marcelurbanczyk.github.io/Personal-Homepage/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.17.0",
