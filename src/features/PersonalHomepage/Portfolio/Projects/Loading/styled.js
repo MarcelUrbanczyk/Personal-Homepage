@@ -23,6 +23,10 @@ export const LoadingMessage = styled.p`
 `;
 
 export const LoadingSpinner = styled(LoadingSpinnerIcon)`
+  height: auto;
   margin: 0;
   animation: ${spin} 2s linear infinite;
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileSmall}) {
+    width: 100px;
+  }
 `;
