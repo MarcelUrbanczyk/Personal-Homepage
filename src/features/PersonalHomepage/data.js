@@ -1,6 +1,7 @@
 export const name = "Marcel Urbańczyk";
 
-export const description = "Lorem";
+export const description =
+  "I'm a motivated, young React developer actively seeking my first job opportunity to apply my skills and collaborate on exciting projects.";
 
 export const email = "urbanczyk.marcel04@gmail.com";
 
