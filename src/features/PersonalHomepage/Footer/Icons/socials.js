@@ -1,16 +1,17 @@
 import { ReactComponent as GithubIcon } from "./svgIcons/GitHub.svg";
 import { ReactComponent as LinkedInIcon } from "./svgIcons/LinkedIN.svg";
 import { StyleIcon } from "./styled";
+import { gitHubUrl, linkedInUrl } from "../../data";
 
 export const icons = [
   {
     name: "github",
-    url: "https://github.com/MarcelUrbanczyk",
+    url: gitHubUrl,
     Icon: StyleIcon(GithubIcon),
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/marcel-urbańczyk-33797428b/",
+    url: linkedInUrl,
     Icon: StyleIcon(LinkedInIcon),
   },
 ];

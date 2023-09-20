@@ -2,6 +2,15 @@ export const name = "Marcel Urbańczyk";
 
 export const description = "Lorem";
 
+export const email = "urbanczyk.marcel04@gmail.com";
+
+export const gitHubUrl = "https://github.com/MarcelUrbanczyk";
+
+export const linkedInUrl =
+  "https://www.linkedin.com/in/marcel-urba%C5%84czyk-33797428b/";
+
+export const apiUrl = "https://api.github.com/users/MarcelUrbanczyk/repos";
+
 export const footerDescription = (
   <>
     I’m always open to new projects whenever I have the time. If you have a
@@ -9,8 +18,6 @@ export const footerDescription = (
     ideas come to life, feel free to contact me
   </>
 );
-
-export const email = "urbanczyk.marcel04@gmail.com";
 
 export const currentSkills = [
   "Semantic & accessible HTML",
