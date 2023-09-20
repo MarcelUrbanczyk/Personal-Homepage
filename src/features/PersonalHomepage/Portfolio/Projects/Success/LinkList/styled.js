@@ -27,6 +27,8 @@ export const Link = styled.a`
   line-height: 1.4;
   letter-spacing: 0.9px;
   text-decoration: none;
+  padding: 1px;
+  border-bottom: 1px solid rgba(3, 102, 214, 0.2);
   &:visited {
     color: none;
   }
