@@ -16,6 +16,9 @@ body {
     padding: 20px;
   }
 }
+a{
+  text-decoration: none;
+}
 
 `;
 
