@@ -16,6 +16,7 @@ export const Wrapper = styled.div`
 `;
 
 export const LoadingMessage = styled.p`
+  color: ${({ theme }) => theme.colors.text.primaryText};
   margin: 0 0 48px 0;
   font-size: 20px;
   line-height: 1.4;
