@@ -3,40 +3,39 @@ import { ReactComponent as SunIcon } from "./brightness 1.svg";
 import { ReactComponent as SwitchIcon } from "./bg.svg";
 
 export const StyledButton = styled.button`
-  display: flex;
   align-items: center;
-  border: none;
   background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
   margin: 0;
   padding: 0;
-  cursor: pointer;
+`;
+
+export const Sun = styled(SunIcon)`
+  color: ${({ theme }) => theme.colors.themeSwitch.sun};
 `;
 
 export const Switch = styled(SwitchIcon)`
-  display: flex;
   align-items: center;
   color: ${({ theme }) => theme.colors.themeSwitch.background};
-  stroke: ${({ theme }) => theme.colors.themeSwitch.stroke};
+  display: flex;
 `;
 
 export const Bullet = styled.span`
-  width: 20px;
-  height: 20px;
+  align-items: center;
   background: ${({ theme }) => theme.colors.themeSwitch.bullet};
   border-radius: 50%;
-  position: absolute;
   display: flex;
+  height: 20px;
   justify-content: center;
-  align-items: center;
   margin: 3px;
+  position: absolute;
   transition: transform 0.3s;
+  width: 20px;
   ${({ movetoright }) =>
     movetoright &&
     css`
       transform: translateX(20px);
     `};
-`;
-
-export const Sun = styled(SunIcon)`
-  color: ${({ theme }) => theme.colors.themeSwitch.sun};
 `;
