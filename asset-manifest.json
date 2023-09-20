@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.79fc7a54.js",
-    "static/js/787.162bc9a0.chunk.js": "/personal-homepage/static/js/787.162bc9a0.chunk.js",
-    "static/media/prof.jpg": "/personal-homepage/static/media/prof.bf953e596e5cc3c7b42b.jpg",
-    "static/media/brightness 1.svg": "/personal-homepage/static/media/brightness 1.98e00516be2a1e0db836e0c825f0f8c8.svg",
-    "static/media/GitHub.svg": "/personal-homepage/static/media/GitHub.e51e039404e2dfdc71ec0035c20556cc.svg",
-    "static/media/mark-github.svg": "/personal-homepage/static/media/mark-github.ac1e7382aed8a51a7d07e577d9bf2bc7.svg",
-    "static/media/Danger.svg": "/personal-homepage/static/media/Danger.db10744e840109f45fda824db35d295d.svg",
-    "static/media/LinkedIN.svg": "/personal-homepage/static/media/LinkedIN.3412d23a07d213c0d650fb69bb8405b5.svg",
-    "index.html": "/personal-homepage/index.html",
-    "static/media/Envelope.svg": "/personal-homepage/static/media/Envelope.b5d25eb0c23a4cd9f005484cf64a5dae.svg",
-    "static/media/bg.svg": "/personal-homepage/static/media/bg.5e19db999ffd2968039a5887fd60eeb4.svg",
-    "static/media/icon-spinner.svg": "/personal-homepage/static/media/icon-spinner.c798c747f4ba489e0eaad6d16aa205c8.svg",
-    "static/media/Dot.svg": "/personal-homepage/static/media/Dot.28e4b218656018cf8a4bd30e2114f466.svg",
-    "main.79fc7a54.js.map": "/personal-homepage/static/js/main.79fc7a54.js.map",
-    "787.162bc9a0.chunk.js.map": "/personal-homepage/static/js/787.162bc9a0.chunk.js.map"
+    "main.js": "/Personal-Homepage/static/js/main.b14055b9.js",
+    "static/js/787.162bc9a0.chunk.js": "/Personal-Homepage/static/js/787.162bc9a0.chunk.js",
+    "static/media/prof.jpg": "/Personal-Homepage/static/media/prof.bf953e596e5cc3c7b42b.jpg",
+    "static/media/brightness 1.svg": "/Personal-Homepage/static/media/brightness 1.98e00516be2a1e0db836e0c825f0f8c8.svg",
+    "static/media/GitHub.svg": "/Personal-Homepage/static/media/GitHub.e51e039404e2dfdc71ec0035c20556cc.svg",
+    "static/media/mark-github.svg": "/Personal-Homepage/static/media/mark-github.ac1e7382aed8a51a7d07e577d9bf2bc7.svg",
+    "static/media/Danger.svg": "/Personal-Homepage/static/media/Danger.db10744e840109f45fda824db35d295d.svg",
+    "static/media/LinkedIN.svg": "/Personal-Homepage/static/media/LinkedIN.3412d23a07d213c0d650fb69bb8405b5.svg",
+    "index.html": "/Personal-Homepage/index.html",
+    "static/media/Envelope.svg": "/Personal-Homepage/static/media/Envelope.b5d25eb0c23a4cd9f005484cf64a5dae.svg",
+    "static/media/bg.svg": "/Personal-Homepage/static/media/bg.5e19db999ffd2968039a5887fd60eeb4.svg",
+    "static/media/icon-spinner.svg": "/Personal-Homepage/static/media/icon-spinner.c798c747f4ba489e0eaad6d16aa205c8.svg",
+    "static/media/Dot.svg": "/Personal-Homepage/static/media/Dot.28e4b218656018cf8a4bd30e2114f466.svg",
+    "main.b14055b9.js.map": "/Personal-Homepage/static/js/main.b14055b9.js.map",
+    "787.162bc9a0.chunk.js.map": "/Personal-Homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.79fc7a54.js"
+    "static/js/main.b14055b9.js"
   ]
 }
