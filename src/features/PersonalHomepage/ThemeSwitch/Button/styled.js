@@ -20,6 +20,7 @@ export const Switch = styled(SwitchIcon)`
   align-items: center;
   color: ${({ theme }) => theme.colors.themeSwitch.background};
   display: flex;
+  stroke: ${({ theme }) => theme.colors.themeSwitch.stroke};
 `;
 
 export const Bullet = styled.span`
