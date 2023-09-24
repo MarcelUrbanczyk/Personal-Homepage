@@ -30,9 +30,13 @@ export const Tile = styled.div`
     border: 6px solid ${({ theme }) => theme.colors.border.blueBorder};
   }
 
+  @media (max-width: 950px) {
+    padding: 30px;
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     max-width: 440px;
-    padding: 36px;
+    padding: 26px;
   }
 `;
 
