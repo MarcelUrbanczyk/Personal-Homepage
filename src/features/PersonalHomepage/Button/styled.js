@@ -9,7 +9,9 @@ export const StyledButton = styled.button`
   display: inline-flex;
   font-family: "Inter";
   font-size: 20px;
+  font-weight: 600;
   gap: 16px;
+  letter-spacing: 1px;
   margin-top: 32px;
   padding: 12px 16px;
   transition: 0.3s;
