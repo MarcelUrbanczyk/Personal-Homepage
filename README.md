@@ -7,7 +7,7 @@ This is my Personal Homepage, functioning as my virtual CV, where project data i
 [![Personal-Homepage.gif](https://i.postimg.cc/Wz5n7nJg/Personal-Homepage.gif)](https://postimg.cc/8frMpL4z)
 
 ## Demo
-https://marcelurbanczyk.github.io/personal-homepage/
+https://marcelurbanczyk.github.io/Personal-Homepage/
 
 ## Technologies
 
