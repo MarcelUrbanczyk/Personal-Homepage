@@ -1,5 +1,5 @@
 import { styled, css } from "styled-components";
-import { ReactComponent as SunIcon } from "./brightness 1.svg";
+import { ReactComponent as SunIcon } from "./brightness1.svg";
 import { ReactComponent as SwitchIcon } from "./bg.svg";
 
 export const StyledButton = styled.button`
