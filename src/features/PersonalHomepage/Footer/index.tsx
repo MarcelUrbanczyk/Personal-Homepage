@@ -8,7 +8,9 @@ const Footer = () => (
     <a href={`mailto:${email}`}>
       <Email>{email}</Email>
     </a>
-    <Description>{footerDescription}</Description>
+    <Description>
+      <>{footerDescription}</>
+    </Description>
     <IconCollection />
   </StyledFooter>
 );

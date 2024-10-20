@@ -12,13 +12,8 @@ export const linkedInUrl =
 
 export const apiUrl = "https://api.github.com/users/MarcelUrbanczyk/repos";
 
-export const footerDescription = (
-  <>
-    I’m always open to new projects whenever I have the time. If you have a
-    website, dashboard or mobile app in mind and need some help to make your
-    ideas come to life, feel free to contact me
-  </>
-);
+export const footerDescription =
+  "I’m always open to new projects whenever I have the time. If you have a website, dashboard or mobile app in mind and need some help to make your ideas come to life, feel free to contact me";
 
 export const currentSkills = [
   "Semantic & accessible HTML",
