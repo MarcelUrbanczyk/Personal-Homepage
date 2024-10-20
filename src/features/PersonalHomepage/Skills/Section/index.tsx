@@ -1,6 +1,11 @@
 import { Container, Header, Divider, Content } from "./styled";
 
-const Section = ({ title, content }) => (
+interface SectionProps {
+  title: string;
+  content: React.ReactElement;
+}
+
+const Section = ({ title, content }: SectionProps) => (
   <Container>
     <Header>{title}</Header>
     <Divider />

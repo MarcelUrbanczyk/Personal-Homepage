@@ -23,7 +23,7 @@ export const Switch = styled(SwitchIcon)`
   stroke: ${({ theme }) => theme.colors.themeSwitch.stroke};
 `;
 
-export const Bullet = styled.span`
+export const Bullet = styled.span<{ $moveToRight: boolean }>`
   align-items: center;
   background: ${({ theme }) => theme.colors.themeSwitch.bullet};
   border-radius: 50%;
@@ -34,8 +34,8 @@ export const Bullet = styled.span`
   position: absolute;
   transition: transform 0.3s;
   width: 20px;
-  ${({ movetoright }) =>
-    movetoright &&
+  ${({ $moveToRight }) =>
+    $moveToRight &&
     css`
       transform: translateX(20px);
     `};

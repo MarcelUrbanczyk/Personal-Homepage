@@ -1,6 +1,11 @@
 import { List, Name, Url, Row, Link } from "./styled";
 
-const LinkList = ({ demoUrl, codeUrl }) => (
+interface LinkListProps {
+  demoUrl?: string;
+  codeUrl?: string;
+}
+
+const LinkList = ({ demoUrl, codeUrl }: LinkListProps) => (
   <List>
     <Row>
       <Name>Demo:&nbsp;</Name>

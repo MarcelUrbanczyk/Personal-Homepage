@@ -1,6 +1,11 @@
 import { StyledButton } from "./styled";
 
-const Button = ({ icon, text }) => (
+interface ButtonProps {
+  icon?: any;
+  text: string;
+}
+
+const Button = ({ icon, text }: ButtonProps) => (
   <StyledButton>
     {icon} {text}
   </StyledButton>

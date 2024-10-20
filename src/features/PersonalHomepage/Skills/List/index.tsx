@@ -1,6 +1,10 @@
 import { StyledList, Item, Dot } from "./styled";
 
-const List = ({ skills }) => (
+interface ListProps {
+  skills: string[];
+}
+
+const List = ({ skills }: ListProps) => (
   <StyledList>
     {skills.map((skill) => (
       <Item key={skill}>

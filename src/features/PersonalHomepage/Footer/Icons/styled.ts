@@ -6,7 +6,9 @@ export const List = styled.ul`
   padding: 0;
 `;
 
-export const StyleIcon = (Icon) => styled(Icon)`
+export const StyleIcon = (
+  Icon: React.FunctionComponent<React.SVGProps<SVGSVGElement>>
+) => styled(Icon)`
   color: ${({ theme }) => theme.colors.text.primaryText};
   height: auto;
   transition: 0.3s;
