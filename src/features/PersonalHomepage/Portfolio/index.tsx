@@ -2,20 +2,25 @@ import { GithubIcon, Wrapper, Header, Description } from "./styled";
 import { useState, useEffect } from "react";
 import Projects from "./Projects";
 import { getProjects } from "./getProjects";
+import { Project } from "./Projects/type";
 
 const Portfolio = () => {
-  const [projects, setProjects] = useState(null);
+  const [projects, setProjects] = useState<Project[]>([]);
+  const [getProjectsState, setGetProjectsState] = useState<
+    "idle" | "error" | "loading" | "success"
+  >("idle");
 
   useEffect(() => {
-    setProjects("loading");
+    setGetProjectsState("loading");
 
     const timeoutId = setTimeout(() => {
       getProjects()
         .then((projects) => {
+          setGetProjectsState("success");
           setProjects(projects);
         })
         .catch(() => {
-          setProjects("error");
+          setGetProjectsState("error");
         });
     }, 1000); //to show loader;
 
@@ -29,7 +34,7 @@ const Portfolio = () => {
       <GithubIcon />
       <Header>Portfolio</Header>
       <Description>My recent projects</Description>
-      <Projects projects={projects} />
+      <Projects projects={projects} getProjectsState={getProjectsState} />
     </Wrapper>
   );
 };
